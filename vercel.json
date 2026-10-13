@@ -1,0 +1,60 @@
+{
+  "framework": null,
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/schedule",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/new-page",
+      "destination": "/safeguarding/",
+      "permanent": true
+    },
+    {
+      "source": "/new-page-1",
+      "destination": "/safeguarding/",
+      "permanent": true
+    },
+    {
+      "source": "/lessons",
+      "destination": "/programmes/tutoring/",
+      "permanent": true
+    },
+    {
+      "source": "/lessons/:path*",
+      "destination": "/programmes/tutoring/",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "summitprovision.4dsolutions.xyz"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    }
+  ]
+}

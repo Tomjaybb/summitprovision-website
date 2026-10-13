@@ -1,0 +1,59 @@
+/* Summit design tokens. Palette sampled from the logo; semantic mapping per the vault's Design System note.
+   Font families are recommendations until brand fonts are confirmed. */
+:root {
+  /* Colour */
+  --bg: #FAFAF7;
+  --bg-raised: #FFFFFF;
+  --bg-inverse: #2C5545;
+  --bg-subtle: #F1F4EC;
+  --ink: #333D3B;
+  --ink-deep: #222A28;
+  --ink-inverse: #FAFAF7;
+  --ink-muted: #5D6B66;
+  --primary: #2C5545;
+  --primary-soft: #47714F;
+  --support: #6FA04C;
+  --muted: #A9C483;
+  --accent: #EE8A3B;
+  --accent-hover: #D97828;
+  --border: #E2E6DC;
+  --focus: #2C5545;
+  --error: #A33B25;
+  --success: #47714F;
+
+  /* Type */
+  --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --type-display: 56px;
+  --type-h1: 44px;
+  --type-h2: 32px;
+  --type-h3: 22px;
+  --type-lead: 20px;
+  --type-body: 17px;
+  --type-small: 15px;
+  --type-label: 15px;
+
+  /* Spacing (4px base) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+  --space-10: 64px;
+  --space-14: 96px;
+  --space-20: 128px;
+
+  /* Shape and depth */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+  --shadow-1: 0 1px 2px rgba(51, 61, 59, .06);
+  --shadow-2: 0 8px 24px rgba(51, 61, 59, .10);
+
+  /* Layout */
+  --container: 1160px;
+  --content-column: 720px;
+}
